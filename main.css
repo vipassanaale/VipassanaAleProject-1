@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p, a, li {
+    font-family: sans serif;
+    font-size: 16px;
+    font-weight: normal; 
+    text-decoration: normal; 
+    color: black;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-bottom: 40px;
+}
+
+header {
+    max-width: 1200px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px black;
+}
+
+header img {
+    width: 90px;
+    height: 90px;
+}
+header h1{
+    font-size: 36px;
+    margin-top: 4px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+}
+
+nav{
+    width: fit-content;
+    justify-content: flex-end;
+    margin-top: 4px;
+}
+nav a{
+    font-family:'Fira Sans', sans-serif;
+}
+nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+nav li:nth-child(1){
+    margin-left: 0px;
+}
+
+footer {
+    max-width: 1200px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-top: solid 1px black;
+}
+.footer-flex {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img {
+    width: 20px;
+    height: 20px;
+    margin-left: 24px;
+}
+
+.credit {
+    text-align: center;
+    font-size: 0.75em;
+    color: #ccc;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.credit a{
+    font-size: 1em;
+    font-weight: bold;
+    color: #ccc
+}
+
+.hero {
+    margin: 20px auto;
+    max-width: 1240px;
+    padding: 0px 20px;
+}
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 60px auto 0px auto;
+    padding: 20px 0px 80px 0px;
+    text-align: center;
+}
+.card {
+    background-color: #e8f4d1;
+    width: 350px;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 40px;
+    display: inline-block;
+    max-height: 1000px;
+    border-radius: 20px;
+}
+.card h2 {
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: "Fire Sans", sans-serif;
+}
+.card p {
+    font-size: 1em;
+    font-family: "Fire Sans", sans-serif;
+}
+.card img {
+    width: 100%;
+}
+
+.details {
+    background-color: #eee;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px;
+    display: flex;
+}
+.details h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Fire Sans", sans-serif;
+}
+.details p {
+    font-size: 1.25em;
+    font-family: "Fire Sans", sans-serif;
+    margin-top: 10px;
+}
+.details img {
+    width: 50%;
+    margin-right: 40px;
+}
+
+.button {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #ddd;
+    width: 50%;
+    margin: 16px 0 0 0;
+}
+.button:hover {
+    background-color:rgb(146, 164, 202);
+    color:#555;
+}
+.button a {
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    font-family: 'Fire Sans', sans-serif;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form {
+    width: 400px;
+    margin: 20px auto;
+}
+.form input {
+    font-size: 1.25em;
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 6px;
+}
+.form-button {
+    text-align: center;
+    background-color: #222;
+    width: 300px;
+    margin: 0px auto;
+    padding: 6px;
+}
+.form-button a {
+    color: #fff;
+    font-size: 1.25em;
+}
+.newsletter {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-family: 'Fire Sans', sans-serif;
+}
+
+
+.hero-image {
+    background-image: url("img/dan-meyers-w6X7XaolqA0-unsplash.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    max-width: 1160px;
+    margin: 20px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text p {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 4em;
+    text-shadow: 0 0 18px #1f1f1f;
+}
+
+@media only screen and (max-width:750px) {
+    header {
+        flex-direction: column;
+    }
+    .newsletter {
+        margin: 20px 60px 0 60px;
+    }
+}
+@media only screen and (max-width:890px) {
+    .container {
+        margin: 136px auto 0 auto;
+    }
+}
+@media only screen and (max-width: 925px) {
+    .details {
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 40px;
+        flex-direction: column;
+    }
+    .details img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .details h2, .details p {
+        margin-left: 30px;
+    }
+}
